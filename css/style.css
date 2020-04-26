@@ -1,10 +1,14 @@
 body {
   margin: 0;
 }
-a {
+ol, ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+/* a {
   color: DodgerBlue;
   text-decoration: none;
-}
+} */
 h1 {
   font-size: 45px;
   text-align: center;
@@ -14,7 +18,7 @@ h1 {
 }
 #grid {
   display: grid;
-  grid-template-columns: 270px 820px;
+  grid-template-columns: 330px 820px;
 }
 #grid > ul  {
   width: 200px;
